@@ -22,3 +22,6 @@ Returns: The slice, that is given to it in the Parameters, but without the entry
 ### Pointer String To String
 Usage: `GoUtils#PointerStringToString(stringWithPointer)`<br />
 Returns: String without pointer
+### Contains
+Usage: `GoUtils#Contains(slice, value)`<br />
+Return true, if the slice contains an index with the Value
