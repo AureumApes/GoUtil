@@ -1,4 +1,4 @@
-package GoUtils
+package goutil
 
 import (
 	"math/rand"

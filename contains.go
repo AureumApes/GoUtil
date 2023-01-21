@@ -1,4 +1,4 @@
-package GoUtils
+package goutil
 
 // Contains checks if a slice contains a index with a certain value
 func Contains(slice []any, value any) bool {

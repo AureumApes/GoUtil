@@ -1,4 +1,4 @@
-package GoUtils
+package goutil
 
 // Encrypt is an unsafe option for encrypting Strings.
 func Encrypt(key []rune, text string) string {
