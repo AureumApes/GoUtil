@@ -6,6 +6,7 @@ import (
 	"time"
 )
 
+// GenerateId generates an string of numbers
 func GenerateId(amount int) string {
 	returned := ""
 	for amount >= 0 {
