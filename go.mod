@@ -1,3 +1,3 @@
-module github.com/AureumApes/GoUtils
+module github.com/AureumApes/goutil
 
 go 1.19
