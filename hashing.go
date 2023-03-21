@@ -5,5 +5,8 @@ import (
 )
 
 func Hash(text string, salt string, salt2 string) string {
-	return string(sha256.New().Sum([]byte(salt + text + salt2)))
+	hasher := sha256.New()
+	hasher.Write([]byte(salt + text + salt2))
+
+	return string(hasher.Sum(nil))
 }
